@@ -1,7 +1,7 @@
 
 local has_technic = minetest.get_modpath("technic")
 
-local drain_inv = minetest.settings:get_bool("headlamp_check_inventory", false)
+local drain_inv = minetest.settings:get_bool("headlamp_drain_inventory", false)
 local battery_life = tonumber(minetest.settings:get("headlamp_battery_life")) or 1
 local battery_drain = math.floor(65535 / (battery_life * 60)) * 5
 
@@ -158,6 +158,7 @@ local off_def = merge(base_def, {
 local on_def = merge(base_def, {
 	description = "Headlamp (On)",
 	inventory_image = "headlamp_inv_headlamp_on.png",
+	groups = {armor_head = 1, armor_heal = 0, armor_use = 0, not_in_creative_inventory = 1},
 	light_source = 14,
 	on_use = function(stack)
 		-- Turn headlamp off

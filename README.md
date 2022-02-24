@@ -8,6 +8,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
+- [Crafting](#crafting)
 - [Dependencies](#dependencies)
 - [Installation](#installation)
 - [License](#license)
@@ -17,6 +18,20 @@
 A simple mod that adds a headlamp that can be worn as armor, providing a bright light source.
 
 ![Overview Screenshot](images/overview.png?raw=true "Overview Screenshot")
+
+## Crafting
+
+The crafting recipe for the headlamp depends on which mods are installed:
+
+- Minetest Game only:
+
+![Default Recipe](images/default_recipe.png?raw=true "Default Recipe")
+
+- With Technic installed:
+
+![Technic Recipe](images/technic_recipe.png?raw=true "Technic Recipe")
+
+If another game is used that doesn't include `default` or `farming`, no recipe will be added.
 
 
 ## Dependencies
