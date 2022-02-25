@@ -8,6 +8,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
+- [Usage](#usage)
 - [Crafting](#crafting)
 - [Dependencies](#dependencies)
 - [Installation](#installation)
@@ -18,6 +19,12 @@
 A simple mod that adds a headlamp that can be worn as armor, providing a bright light source.
 
 ![Overview Screenshot](images/overview.png?raw=true "Overview Screenshot")
+
+## Usage
+
+Using the headlamp is very simple, just "use" the item to turn it on (left-click) and put it in one of your armor slots. You can also "place" the item to equip it (right-click).
+
+Note that the headlamp works slightly different depending on whether the `technic` mod is installed; if `technic` is installed, the headlamp can be recharged like other electric tools, if not, the headlamp will simply wear out, and can be repaired like any other tool.
 
 ## Crafting
 
