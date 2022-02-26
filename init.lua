@@ -2,7 +2,7 @@
 local has_technic = minetest.get_modpath("technic")
 
 local drain_inv = minetest.settings:get_bool("headlamp_drain_inventory", false)
-local battery_life = tonumber(minetest.settings:get("headlamp_battery_life")) or 1
+local battery_life = tonumber(minetest.settings:get("headlamp_battery_life")) or 180
 local battery_drain = math.floor(65535 / (battery_life * 60)) * 5
 
 -- Helper function to make code neater
