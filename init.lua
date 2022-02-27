@@ -111,8 +111,8 @@ local base_def = {
 
 if has_technic then
 	-- Battery values are now charge values instead of wear
-	battery_life = battery_life * 60
-	battery_drain = 5
+	battery_life = battery_life * 600
+	battery_drain = 50
 	-- Different code for different APIs
 	if technic.plus then
 		use_battery = function(stack)
