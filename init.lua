@@ -116,13 +116,11 @@ if has_technic then
 	-- Different code for different APIs
 	if technic.plus then
 		use_battery = function(stack)
-			local charge = technic.get_RE_charge(stack)
-			if charge <= battery_drain then
-				stack:set_name("headlamp:headlamp_off")
-				return false
+			if technic.use_RE_charge(stack, battery_drain) then
+				return true
 			end
-			technic.set_RE_charge(stack, charge - battery_drain)
-			return true
+			stack:set_name("headlamp:headlamp_off")
+			return false
 		end
 		base_def.max_charge = battery_life
 	else
