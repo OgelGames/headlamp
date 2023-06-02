@@ -57,7 +57,7 @@ If another game is used that doesn't include `default` or `farming`, no recipe w
 
 ## Installation
 
-Download the [master branch](https://github.com/OgelGames/headlamp/archive/master.zip) or the [latest release](https://github.com/OgelGames/headlamp/releases), and follow [the usual installation steps](https://dev.minetest.net/Installing_Mods).
+Download the [master branch](https://github.com/OgelGames/headlamp/archive/master.zip) or the [latest release](https://github.com/OgelGames/headlamp/releases), and follow [the usual installation steps](https://wiki.minetest.net/Installing_Mods).
 
 Alternatively, you can download and install the mod from [ContentDB](https://content.minetest.net/packages/OgelGames/headlamp) or the online content tab in Minetest.
 
